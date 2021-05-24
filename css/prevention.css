@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#preventionmain{
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#preventionmain ul{
+    list-style-type: none;
+}
+
+#preventionmain a{
+    text-decoration: none;
+    background-color:cadetblue;
+    border-radius: 5px;
+    color: black;
+}
+
+#preventionmain a:hover{
+    background-color: red;
+    transition: all 0.7s;
+}
+
+#preventionmain ul li h3{
+    color:blue;
+    text-decoration: underline overline red;
+}
