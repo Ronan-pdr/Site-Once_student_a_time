@@ -1,0 +1,17 @@
+nav{
+    text-align: right;
+    display: flex;
+}
+
+nav a:hover{
+    background-color: grey;
+    transition: 0.7s all;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: red;
+
+}
+
