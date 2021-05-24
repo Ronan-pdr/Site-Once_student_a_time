@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.menuhaut{
+    width: 100%;
+    background-color: #424558;
+}
+
+.menuhaut a{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.menuhaut > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuhaut > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menuhaut > ul > li{
+    float: right;
+    margin-right: 1.5%;
+    position: relative;
+}
+
+.menuhaut ul > li > ul > li > a{
+    color: black; 
+}
+
+.menuhaut ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+
+.menuhaut ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.menuhaut li{
+    list-style-type: none;
+}
+
+.submenu{
+    display: none;
+}
+
+.menuhaut a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menuhaut li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    width: 75%;
+}
+
+.menuindex:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(288,77,38,0.15)
+}
+
+.menumembre:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000,112,192,0.15)
+}
+
+.menuJeu:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15)
+}
+
+.menuindex .submenu{
+    background-color: rgb(203,100,40);
+}
+
+.menumembre .submenu{
+    background-color: rgb(000,160,240)
+}
+
+.menuJeu .submenu{
+    background-color: rgb(250,215,100)
+}
+
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+};
+
+.menuindex .submenu li:hover{
+    background-color: RGB(210,77,60)
+}
+
+.menumembre .submenu li:hover{
+    background-color: rgb(000,115,200)
+}
+
+.menuJeu .submenu li:hover{
+    background-color: rgb(200,165,75)
+}

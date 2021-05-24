@@ -1,0 +1,30 @@
+.boutondownload{
+    font-size: 42px;
+}
+
+.tableau-style {
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    margin: 100px auto;
+    border: 2px solid rgb(33, 142, 211);
+}
+
+thead tr{
+    background-color: rgb(33, 142, 211);
+    color: #fff;
+    text-align: center;
+}
+
+th, td{
+    padding: 15px 20px;
+}
+
+.tableau-style .bodytableau tr td{
+    text-align: center;
+}
+
+tbody tr, td, th{
+    border: 1px solid #ddd;
+}
