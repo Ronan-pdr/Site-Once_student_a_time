@@ -37,17 +37,18 @@
 }
 
 .github{
-    background-image: url("GithubLogo.png");
+    background-image: url("../Images/GithubLogo.png");
     background-size: contain;
     width: 70px;
     height: 70px;
-    border: 1px solid black;
+    border: none;
   }
   
   .github:hover{
-    background-image: url("GithubInverted.png");
+    background-image: url("../Images/GithubInverted.png");
     background-size: contain;
     width: 70px;
     height: 70px;
-    border: 1px solid black;
+    transition: 0.7s;
+    border: none;
   }

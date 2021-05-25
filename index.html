@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="../css/menuhaut.css">
+    <link rel="stylesheet" href="css/menuhaut.css">
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="js/darkmode.js"></script>
 </head>
@@ -21,10 +21,13 @@
             <ul>
                 <li class = "menuJeu"> <a href="html/prevention.html" title="prevention">Prévention</a></li>
 
-                <li class = "menuJeu"> <a href="html/game.html" title="game">Jeu</a></li>
-
-                <li class = "menumembre"> <a href="html/download.html" title="Download">Download</a></li>
-
+                <li class = "menuJeu"><a href="#">Notre Jeu</a>
+                    <ul class = "submenu">
+                        <li> <a href="html/game.html" title="game">Jouer au jeu</a></li>
+                        <li> <a href="html/download.html" title="Download">Download</a></li>
+                    </ul>
+                </li>  
+            
                 <li class = "menuindex"> <a href="index.html" title="Accueil">Accueil</a></li>
             </ul>  
         </nav>
@@ -48,54 +51,6 @@
         Une équipe où les membres se complètent les uns aux autres, avec toujours plus d'idées. C'est finalement 
         avec un gros manque de sommeil que nous sommes très fier de ce que nous avons pu produire en peu de temps.
     </article></div>
-    <!-- <main id="diapomain">
-        <i id="nav-gauche" class="las la-chevron-left"></i>
-        <i id="nav-droite" class="las la-chevron-right"></i>
-        <h2>Composition de notre équipe</h2>
-        <div class=diapo>
-            <div class="éléments">
-                <div class="élément active">
-                    <img src="Images/ronan_pedron.jpg" alt="Photo de Ronan">
-                    <div class="caption">
-                        <div class="miseenpage"><h4 class="h4title">Ronan Pédron</h4>
-                        <p class="texte">"Ce Hackathon, qui est également mon premier à été un réel plaisir à réaliser, pouvoir travailler avec des gens
-                             qui sont autant motivé que moi est ce que j'aime et ce hackathon organisé par Gotta Go Hack à été juste PARFAIT."</p>
-                        <a class="bouton" href="#" title="Page de Ronan Pédron"></a></div>
-                    </div>
-                </div>
-
-                <div class="élément">
-                    <img src="Images/quentin_abel_marceau.jpg" alt="Photo de Quentin">
-                    <div class="caption">
-                        <div class="miseenpage"><h4 class="h4title">Quentin Abel-Marceau</h4>
-                        <p class="texte">"Le Hackathon#0 était une expérience formidable, qui m'a apprit à travailler en groupe
-                             (et à rester éveiller plus longtemps que prévu !!)"</p>
-                        <a class="bouton" href="#" title="Page de Arthur Barbier"></a></div>
-                    </div>
-                </div>
-
-                <div class="élément">
-                    <img src="Images/mathieu_camart_JPG.jpg" alt="Photo de Matthieu">
-                    <div class="caption">
-                        <div class="miseenpage"><h4 class="h4title">Matthieu Camart</h4>
-                        <p class="texte">"J'adore le travail sous pression, je trouve que c'est meilleur moyen pour apprendre et créer avec une 
-                            concentratrion maximale. J'ai retrouvé cette sensation dans ce premier Hackaton et j’adorais la retrouver dans le futur !"</p>
-                        <a class="bouton" href="#" title="Page de Matthieu Camart"></a></div>
-                    </div>
-                </div>
-
-                <div class="élément">
-                    <img src="Images/sacha.hibon.jpg" alt="Photo de Sacha">
-                    <div class="caption">
-                        <div class="miseenpage"><h4 class="h4title">Sacha Hibon</h4>
-                        <p class="texte">"Je suis heureux, je peux enfin m'identifier aux informaticiens dans les films. Je suis entouré de 
-                            camarades passionnés qui n'hésitent pas à coder pendant 48 heures sans interruption pour le simple plaisir."</p>
-                        <a class="bouton" href="#" title="Page de Sacha Hibon"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main> -->
     <div id="remerciement">
         <h2>Les remerciements</h2>
         <article>
@@ -106,9 +61,8 @@
     </div>
 
     <footer>
-
-        <a href="https://github.com/Ronan-pdr/Hackathon-0"_blank>
-            <div class="github">Le github</div>
+        <a alt="Logo github" href="https://github.com/Ronan-pdr/Hackathon-0" target="_blank" >
+                <img class="github">
         </a>
     </footer>
 </body>
