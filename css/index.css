@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
 #quisommesnous h2{
     font-family: 'Bebas Neue', cursive;
@@ -42,7 +43,7 @@
     width: 70px;
     height: 70px;
     border: none;
-  }
+}
   
   .github:hover{
     background-image: url("../Images/GithubInverted.png");
@@ -51,4 +52,94 @@
     height: 70px;
     transition: 0.7s;
     border: none;
-  }
+}
+
+  /*Menu qui défille*/
+
+.h4title{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 42px;
+    text-decoration: underline overline red;
+}
+
+.texte{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+#diapomain h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    text-align: center;
+    color:brown;
+}
+
+.élément{
+    padding: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.miseenpage{
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.caption a{
+    background-color: darkred;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.caption a:hover{
+    background-color: gray;
+    transition: 0.7s all;
+}
+
+#diapomain{
+    position:relative;
+    width: 80%;
+    margin: auto;
+}
+
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+
+#diapomain #nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: -7.5%;
+}
+
+#nav-gauche{
+    left: -7.5%;
+}
+
+#diapomain #nav-droite:hover, #nav-gauche:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.éléments{
+    display: flex;
+    position: relative;
+    transition: 1s linear;
+    
+}
+
+.élément{
+    flex: 1 0 100%;
+    position: relative;
+}

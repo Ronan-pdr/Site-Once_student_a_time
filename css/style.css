@@ -16,3 +16,10 @@ iframe {
     height: 100vh;        /* Viewport-relative units */
     width: 100vw;
 }
+
+#disclaimer{
+    color: red;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
