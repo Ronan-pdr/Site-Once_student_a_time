@@ -44,15 +44,6 @@
     height: 70px;
     border: none;
 }
-  
-  .github:hover{
-    background-image: url("../Images/GithubInverted.png");
-    background-size: contain;
-    width: 70px;
-    height: 70px;
-    transition: 0.7s;
-    border: none;
-}
 
   /*Menu qui défille*/
 
