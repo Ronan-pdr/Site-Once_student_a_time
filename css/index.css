@@ -35,3 +35,19 @@
 #remerciement article{
     font-size: 20px;
 }
+
+.github{
+    background-image: url("GithubLogo.png");
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+  }
+  
+  .github:hover{
+    background-image: url("GithubInverted.png");
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+  }
